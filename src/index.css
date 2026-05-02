@@ -329,17 +329,17 @@ select option[value="low"] {
 
 select option[value="general"] {
   color: #c4b5fd;
-  background-color: #211b13;
+  background-color: #1c1324;
 }
 
 select option[value="work"] {
-  color: #3b82f6;
-  background-color: #13211b;
+  color: #38bdf8;
+  background-color: #131b24;
 }
 
 select option[value="personal"] {
-  color: #10b981;
-  background-color: #13211b;
+  color: #2dd4bf;
+  background-color: #132421;
 }
 
 /* ==========================================================================
@@ -569,10 +569,29 @@ button:active {
   border: 1px solid rgba(245, 158, 11, 0.3);
 }
 
+
 .low {
   background: rgba(16, 185, 129, 0.15);
   color: #34d399;
   border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.work {
+  background: rgba(59, 130, 246, 0.15);
+  color: #3b82f6;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.personal {
+  background: rgba(45, 212, 191, 0.15);
+  color: #2dd4bf;
+  border: 1px solid rgba(45, 212, 191, 0.3);
+}
+
+.general {
+  background: rgba(139, 92, 246, 0.15);
+  color: #c4b5fd;
+  border: 1px solid rgba(139, 92, 246, 0.3);
 }
 
 /* ==========================================================================

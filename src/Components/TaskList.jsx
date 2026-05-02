@@ -11,7 +11,7 @@ export default function TaskList({ tasks, updateTask, deleteTask }) {
             <div>
               <span>{task.text}</span>
               <small className={`tag ${task.priority}`}>{task.priority}</small>
-              <small> {task.category}</small>
+              <small className={`tag ${task.category}`}> {task.category}</small>
             </div>
 
             <div>
